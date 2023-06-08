@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E6E6E6;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-google__logo{
+    background-image: url(/assets/img/google-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #E6E6E6;
+    border-radius: 100%;
+    width: 26px;
+    height: 26px;
+    margin-right: 13px;
+}
+
+.btn-fintech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 10px;
+    width: 252px;
+    height: 42px;
+}
+
+.btn-fintech__entrar{
+    font-size: 18px;
+}
+
+.form-control__fintech{
+    width: 252px;
+    height: 42px;
+    border: 2px solid black;
+    background-color: #E6E6E6;
+}
+.form-label__fintech{
+    background-color: #E6E6E6;
+    position: absolute;
+    left: 62px;
+}
+
+.form-label__fintech-email{
+    top:111px
+}
+.form-label__fintech-senha{
+    top:169px
+}
