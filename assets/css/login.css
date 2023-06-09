@@ -12,6 +12,19 @@ main{
     flex-direction: column;
     align-items: center;
 }
+.material-symbols-outlined{
+    font-size: 65px !important;
+}
+.welcomeMessage{
+    margin: 50px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.orMsg{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0px 25px 0;
+}
 .btn-google__logo{
     background-image: url(/assets/img/google-logo.png);
     background-size: contain;
@@ -28,14 +41,18 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 13px;
     border-radius: 10px;
+    margin: 25px 0;
     width: 252px;
     height: 42px;
 }
 
 .btn-fintech__entrar{
     font-size: 18px;
+}
+.btn-fintech__entrar a{
+    color: #e6e6e6;
 }
 
 .form-control__fintech{
@@ -51,8 +68,12 @@ main{
 }
 
 .form-label__fintech-email{
-    top:111px
+    top:337px
 }
 .form-label__fintech-senha{
-    top:169px
+    top:394px
+}
+
+.senha-msg{
+    margin-bottom: 10px;
 }

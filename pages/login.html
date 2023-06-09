@@ -29,12 +29,12 @@
       </i>
     </header>
     <main>
-      <h1>Bem vindo a Fintech!</h1>
+      <h1 class="welcomeMessage">Bem vindo a Fintech!</h1>
       <button class="btn btn-dark btn-fintech">
         <img class="btn-google__logo"></img>
         <p>Continue com o Google</p>
       </button>
-      <p>ou</p>
+      <p class="orMsg">ou</p>
       <div class="mb-3">
         <label for="email_do_usuario" class="form-label form-label__fintech form-label__fintech-email">Email</label>
         <input type="email" class="form-control form-control__fintech" id="email_do_usuario" placeholder="nome@exemple.com">
@@ -43,9 +43,14 @@
         <label for="senha_do_usuario" class="form-label form-label__fintech form-label__fintech-senha">Senha</label>
         <input type="password" class="form-control form-control__fintech" id="senha_do_usuario">
       </div>
-      <button class="btn btn-dark btn-fintech btn-fintech__entrar">Entrar</button>
-      <a href="">REDEFINIR SENHA</a>
-      <p>Já possui conta? <a href="">CLIQUE AQUI</a></p>
+      <button class="btn btn-dark btn-fintech btn-fintech__entrar">
+        <a href="#" class="">Entrar</a>
+      </button>
+      <a href="#" class="senha-msg">REDEFINIR SENHA</a>
+      <p>
+        Já possui conta? 
+        <a href="#">CLIQUE AQUI</a>
+      </p>
     </main>
 
     <script
