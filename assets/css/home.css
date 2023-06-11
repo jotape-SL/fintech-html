@@ -54,16 +54,18 @@ header{
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 1em;
+  padding: 0 1em 1em 1em;
 }
 .econ-dados{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 15px;
 }
 .econ-dados div{
   margin: 10px;
+  font-size: 15px;
 }
 .econ-dados div p:nth-child(even){
   font-size: 22px;
@@ -77,11 +79,22 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin: 0 -20px;
 }
 
+.econ-botoes span{
+  font-size: 25px !important;
+  background-color: #8D8D8D;
+  border-radius: 100%;
+  padding: 3px;
+  color: #363636;
+}
 .econ-botoes div{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   width: 20%;
-  height: 75px;
+  height: 65px;
   background-color: #363636;
   border-radius: 15px;
   padding: 1em;
