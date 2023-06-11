@@ -104,18 +104,54 @@ header{
 
 /*Conteudo do card*/
 
-.card-econ{
+.card-patt{
   margin: 1em;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.18);
   border-radius: 10px;
   background-color: #fff;
 }
-.card-econ__body{
+.card-patt__body{
   padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.card-patt__conteudo{
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0 0 0;
+}
+
+.card-patt__feedback{
+  display: flex;
+  background: linear-gradient(180deg, green, #cece4a);
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px;
+}
+.card-patt__feedback span{ 
+  font-size: 4em !important;
+  margin: 5px;
+}
+
+.card-patt__div2{
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.div2-conteudo{
+  text-align: start;
+}
+.div2-receitas p:nth-child(even){
+  color: #900000 ;
+}
+.div2-despesas p:nth-child(even){
+  color: green;
+  margin-bottom: 10px;
 }
 
 /*Circle progress*/
-.card-econ__circulo{
+.card-patt__circulo{
   background:  linear-gradient(45deg, yellow,green);
   border-radius: 50%;
   width: 7em;
@@ -124,7 +160,7 @@ header{
   justify-content: center;
   align-items: center;
 }
-.card-econ__circulo::before{
+.card-patt__circulo::before{
   justify-content: center;
   align-items: center;
   content: "100%";
