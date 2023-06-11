@@ -11,7 +11,8 @@ header{
     background-color: #000;
     align-items: center;
     justify-content: space-between;
-}
+  }
+
 /*Hamburger menu e animacao*/
 .icone-hamburger {
     width: 40px;
@@ -44,3 +45,46 @@ header{
     font-size: 50px !important;
     color: white;
 }
+
+/**/
+.economia{
+  background-color: black;
+  color: white;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1em;
+}
+.econ-dados{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.econ-dados div{
+  margin: 10px;
+}
+.econ-dados div p:nth-child(even){
+  font-size: 22px;
+}
+
+.econ-dados__saldo{
+  width: 100%;
+}
+
+.econ-botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.econ-botoes div{
+  width: 20%;
+  height: 75px;
+  background-color: #363636;
+  border-radius: 15px;
+  padding: 1em;
+  font-size: 8px;
+}
+
