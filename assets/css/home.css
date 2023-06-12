@@ -1,0 +1,212 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E6E6E6;
+}
+
+header{
+    display: flex;
+    padding: 16px;
+    background-color: #000;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+/*Hamburger menu e animacao*/
+.icone-hamburger {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+.icone-hamburger:before,
+.icone-hamburger:after,
+.icone-hamburger span {
+  background: #fff;
+  content: "";
+  height: 6px;
+  border-radius: 3px;
+  margin: 3px 0;
+  transition: 0.5s;
+}
+.menu-lateral__active:before {
+  transform: translateY(12px) rotate(135deg);
+}
+.menu-lateral__active:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+.menu-lateral__active span {
+  transform: scale(0);
+}
+
+/*Avatar*/
+
+.material-symbols-outlined{
+    font-size: 50px !important;
+    color: white;
+}
+
+/**/
+.economia{
+  background-color: black;
+  color: white;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 1em 1em 1em;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.econ-dados{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.econ-dados div{
+  margin: 10px;
+  font-size: 15px;
+}
+.econ-dados div p:nth-child(even){
+  font-size: 18px;
+}
+
+.econ-dados__saldo{
+  width: 100%;
+}
+
+.econ-botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 -20px;
+}
+
+.econ-botoes span{
+  font-size: 25px !important;
+  background-color: #8D8D8D;
+  border-radius: 100%;
+  padding: 3px;
+  color: #363636;
+}
+.econ-botoes div{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 20%;
+  height: 65px;
+  background-color: #363636;
+  border-radius: 15px;
+  padding: 1em;
+  font-size: 8px;
+}
+
+/*Conteudo do card*/
+
+.card-patt{
+  margin: 1em;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  background-color: #fff;
+}
+.card-patt__body{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.card-patt__conteudo{
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0 0 0;
+}
+
+.div1-text{
+  font-size: 10px;
+  text-align: center;
+}
+
+.card-patt__div2{
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+.div2-conteudo{
+  text-align: start;
+}
+.div2-receitas p:nth-child(even){
+  color: #900000 ;
+}
+.div2-despesas p:nth-child(even){
+  color: green;
+  margin-bottom: 10px;
+}
+.card-patt__feedback{
+  display: flex;
+  background: linear-gradient(180deg, green, #cece4a);
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px;
+}
+.card-patt__feedback span{ 
+  font-size: 4em !important;
+  margin: 5px;
+}
+
+/*Circle progress*/
+.card-patt__circulo{
+  background:  linear-gradient(45deg, yellow,green);
+  border-radius: 50%;
+  width: 7em;
+  height: 7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-patt__circulo::before{
+  justify-content: center;
+  align-items: center;
+  content: "100%";
+  display: flex;
+  width: 80%;
+  height: 5.5em;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/*Segundo card*/
+.segundo-card{
+  justify-content: space-between;
+  align-items:center ;
+}
+.conteudo-icone{
+  background-color: tomato;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+}
+.conteudo-dados{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
+.conteudo-dados .first-row{
+  font-size: 12px;
+}
+.conteudo-dados .second-row{
+  color:#777777;
+  font-size: 8px;
+}
+
+/*Botao do canto da tela*/
+.adicionar-botao{
+  position: fixed;
+  width: 3.125em;
+  height: 3.125em;
+  top: 90%;
+  right: 16px;
+  background-color: black;
+  border-radius: 50%;
+}

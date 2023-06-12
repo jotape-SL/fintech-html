@@ -5,7 +5,6 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #E6E6E6;
 }
-
 main{
     text-align: center;
     display: flex;
@@ -36,7 +35,6 @@ main{
     height: 26px;
     margin-right: 13px;
 }
-
 .btn-fintech{
     display: flex;
     justify-content: center;
@@ -47,14 +45,12 @@ main{
     width: 252px;
     height: 42px;
 }
-
 .btn-fintech__entrar{
     font-size: 18px;
 }
 .btn-fintech__entrar a{
     color: #e6e6e6;
 }
-
 .form-control__fintech{
     width: 252px;
     height: 42px;
@@ -66,14 +62,12 @@ main{
     position: absolute;
     left: 62px;
 }
-
 .form-label__fintech-email{
     top:337px
 }
 .form-label__fintech-senha{
     top:394px
 }
-
 .senha-msg{
     margin-bottom: 10px;
 }
