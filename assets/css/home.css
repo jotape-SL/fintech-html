@@ -121,16 +121,9 @@ header{
   margin: 15px 0 0 0;
 }
 
-.card-patt__feedback{
-  display: flex;
-  background: linear-gradient(180deg, green, #cece4a);
-  border-radius: 5px;
-  align-items: center;
-  padding: 5px;
-}
-.card-patt__feedback span{ 
-  font-size: 4em !important;
-  margin: 5px;
+.div1-text{
+  font-size: 10px;
+  text-align: center;
 }
 
 .card-patt__div2{
@@ -138,6 +131,7 @@ header{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 50%;
 }
 .div2-conteudo{
   text-align: start;
@@ -148,6 +142,17 @@ header{
 .div2-despesas p:nth-child(even){
   color: green;
   margin-bottom: 10px;
+}
+.card-patt__feedback{
+  display: flex;
+  background: linear-gradient(180deg, green, #cece4a);
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px;
+}
+.card-patt__feedback span{ 
+  font-size: 4em !important;
+  margin: 5px;
 }
 
 /*Circle progress*/
@@ -171,4 +176,15 @@ header{
   background-color: white;
 }
 
-
+/*Segundo card*/
+.segundo-card{
+  justify-content: space-between;
+}
+.conteudo-icone{
+  width: 15%;
+}
+.conteudo-dados{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
