@@ -69,7 +69,7 @@ header{
   font-size: 15px;
 }
 .econ-dados div p:nth-child(even){
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .econ-dados__saldo{
@@ -179,12 +179,34 @@ header{
 /*Segundo card*/
 .segundo-card{
   justify-content: space-between;
+  align-items:center ;
 }
 .conteudo-icone{
-  width: 15%;
+  background-color: tomato;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
 }
 .conteudo-dados{
   display: flex;
   width: 85%;
   justify-content: space-between;
+}
+.conteudo-dados .first-row{
+  font-size: 12px;
+}
+.conteudo-dados .second-row{
+  color:#777777;
+  font-size: 8px;
+}
+
+/*Botao do canto da tela*/
+.adicionar-botao{
+  position: fixed;
+  width: 3.125em;
+  height: 3.125em;
+  top: 90%;
+  right: 16px;
+  background-color: black;
+  border-radius: 50%;
 }
