@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    background-color: #008243;
+}
