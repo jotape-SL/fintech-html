@@ -2,8 +2,39 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    background-color: #E6E6E6;
 }
 header{
     display: flex;
     background-color: #008243;
+    padding: 1em;
+    color:white;
+}
+.header-texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 1em;
+}
+.cards-ds{
+    display: flex;
+    flex-direction: column;
+}
+.card-cat{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+
+.dtnm{
+    margin-right: 3em;
+}
+.card-icone{
+    margin-right: 1em;
+}
+.custom{
+    font-size: 30px !important;
 }
