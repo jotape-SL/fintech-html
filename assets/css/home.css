@@ -110,6 +110,9 @@ header{
   border-radius: 10px;
   background-color: #fff;
 }
+.card-patt a{
+  color: black  ;
+}
 .card-patt__body{
   padding: 1em;
   display: flex;

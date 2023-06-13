@@ -24,6 +24,9 @@ header{
     width: 100%;
     margin-left: 1em;
 }
+.icone-arrowBack a{
+    color: white;
+}
 
 /*Main*/
 /*1st part*/
