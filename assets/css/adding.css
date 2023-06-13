@@ -6,9 +6,14 @@ body{
 }
 header{
     display: flex;
-    background-color: #008243;
     padding: 1em;
     color:white;
+}
+.despesa{
+    background-color: #960000;
+}
+.receita{
+    background-color: #008243;    
 }
 
 /*Header*/
