@@ -1,9 +1,5 @@
 body{
-    display: flex;
-    flex-direction: column;
     padding: 16px;
-    font-family: 'Roboto', sans-serif;
-    background-color: #E6E6E6;
 }
 main{
     text-align: center;

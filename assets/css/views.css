@@ -1,0 +1,70 @@
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    color:white;
+}
+.despesa{
+    background-color: #960000;
+}
+.receita{
+    background-color: #008243;    
+}
+.header-texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 1em;
+}
+.texto-vl{
+    font-size: 12px;
+}
+.first-row{
+    display: flex;
+}
+.material-symbols-outlined{
+    font-size: 26px !important;
+}
+.icone-arrowBack a{
+    color: white;
+}
+.search{
+    margin-right: .5em;
+}
+.header-mes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+.header-mes a{
+    color: white;
+}
+
+.header-mes p{
+    margin: 0 4em;
+}
+
+/*main*/
+
+.icone-cat{
+    background-color: pink;
+    padding: 0.125em;
+    border-radius: 50%;
+}
+.card-cat{
+    justify-content: space-between;
+}
+.columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 1em;
+}
+.nm, .ds, .vl{
+    color: #707070;
+}
+
+
