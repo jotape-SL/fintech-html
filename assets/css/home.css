@@ -73,7 +73,7 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 0 -20px;
+  margin: 0 -10px;
 }
 
 .econ-botoes span{
