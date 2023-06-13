@@ -45,3 +45,26 @@ header{
 .header-mes p{
     margin: 0 4em;
 }
+
+/*main*/
+
+.icone-cat{
+    background-color: pink;
+    padding: 0.125em;
+    border-radius: 50%;
+}
+.card-cat{
+    justify-content: space-between;
+}
+.columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 1em;
+}
+.nm, .ds, .vl{
+    color: #707070;
+}
+
+
