@@ -1,9 +1,3 @@
-body{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-    background-color: #E6E6E6;
-}
 header{
     display: flex;
     padding: 1em;
@@ -30,25 +24,9 @@ header{
 
 /*Main*/
 /*1st part*/
-.cards-ds{
-    display: flex;
-    flex-direction: column;
-}
-.card-cat{
-    padding: 1em;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid black;
-    font-size: 14px;
-}
+
 .dtnm{
     margin-right: 3em;
-}
-.card-icone{
-    margin-right: 1em;
-}
-.custom{
-    font-size: 30px !important;
 }
 
 /*2nd part*/
