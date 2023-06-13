@@ -23,3 +23,13 @@ body{
 .custom{
     font-size: 30px !important;
 }
+
+.icone-avatar{
+    width: 3.125em;
+    height: 3.125em;
+    background-image: url(https://i.kym-cdn.com/photos/images/original/002/601/167/c81);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    border: 1px solid white;
+}
