@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E6E6E6;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    color:white;
+}
+.despesa{
+    background-color: #960000;
+}
+.receita{
+    background-color: #008243;    
+}
+.header-texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 1em;
+}
+.first-row{
+    display: flex;
+}
+.material-symbols-outlined{
+    font-size: 26px !important;
+}
+.icone-arrowBack a{
+    color: white;
+}
+.search{
+    margin-right: .5em;
+}
+.header-mes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.header-mes a{
+    color: white;
+}
+
+.header-mes p{
+    margin: 0 4em;
+}
+.texto-vl{
+    font-size: 12px;
+}
