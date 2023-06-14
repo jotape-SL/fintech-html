@@ -33,11 +33,30 @@ main{
     width: 80%;
 }
 
-.sair-button{
-    margin-top: 5em;
+.df-button{
+    background-color: black;
+    border-radius: 10px;
+}
+.df-button button{
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    padding: 1em;
+    margin: 0 3em;
 }
 
-.sair-button a, .sair-button button{
-    padding: 1em;
-    line-height: 0;
+.df-button a{
+    width: fit-content;
 }
+.redef-senha{
+    margin-top: 1em;
+}
+
+.salvar-button{
+    margin-top: 2em;
+}
+.sair-button{
+    margin-top: 6em;
+}
+

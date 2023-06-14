@@ -40,28 +40,52 @@
     <main>
       <div class="icone-avatar avatar-page"></div>
       <div class="name-forms">
-        <div class="form-floating mb-3">
-          <input
-            type="name"
-            class="form-control"
-            id="nome"
-            placeholder="Fulano"
-          />
-          <label for="nome">Nome</label>
+        <div class="col-12 mb-3">
+          <label class="visually-hidden" for="inlineFormInputGroupFirstName"
+            >Nome</label
+          >
+          <div class="input-group">
+            <input
+              type="name"
+              class="form-control"
+              id="inlineFormInputGroupFirstName"
+              placeholder="Fulano"
+            />
+            <div class="input-group-text">
+              <span class="material-symbols-outlined"> edit </span>
+            </div>
+          </div>
         </div>
-        <div class="form-floating">
-          <input
-            type="text"
-            class="form-control"
-            id="sobrenome"
-            placeholder="da Silva"
-          />
-          <label for="sobrenome">Sobrenome</label>
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupLastName"
+            >Sobrenome</label
+          >
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              id="inlineFormInputGroupLastName"
+              placeholder="da Silvassauro"
+            />
+            <div class="input-group-text">
+              <span class="material-symbols-outlined"> edit </span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="sair-button">
+      <div>
         <a href="/pages/login.html">
-          <button type="button" class="btn btn-dark">Sair</button>
+          <div class="salvar-button df-button">
+            <button type="button">Salvar</button>
+          </div>
+        </a>
+      </div>
+      <div class="redef-senha"><a href="#">redefinir senha</a></div>
+      <div>
+        <a href="/pages/login.html">
+          <div class="sair-button df-button">
+            <button type="button">Sair</button>
+          </div>
         </a>
       </div>
     </main>
