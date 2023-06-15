@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    padding: 1em;
+    color:white;
+    background-color: black;
+}
+header a{
+    color:white;
+}
+
+.header-texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 1em;
+}
+
+.card-config{
+    padding: 1em;
+}
+.card-cat{
+    border:none !important;
+}
+
+.last-item{
+    border-bottom: 1px solid black !important;
+}
+.texto-config{
+    font-size: 12px;
+    margin: 1em 0;
+    color: green;
+}
