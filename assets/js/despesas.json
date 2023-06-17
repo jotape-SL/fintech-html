@@ -1,0 +1,32 @@
+{
+  "despesas": [
+    {
+      "categoria": "Conta Corrente",
+      "data-dia": "12/06/23",
+      "dataSemana": "Seg.",
+      "dataHora": "10:49",
+      "valor": "17,90"
+    },
+    {
+      "categoria": "Crédito",
+      "data-dia": "13/06/23",
+      "dataSemana": "Ter.",
+      "dataHora": "10:50",
+      "valor": "18,90"
+    },
+    {
+      "categoria": "Minha carteira",
+      "data-dia": "14/06/23",
+      "dataSemana": "Qua.",
+      "dataHora": "10:51",
+      "valor": "19,90"
+    },
+    {
+      "categoria": "Conta Corrente",
+      "data-dia": "15/06/23",
+      "dataSemana": "Qui.",
+      "dataHora": "10:52",
+      "valor": "20,90"
+    }
+  ]
+}
