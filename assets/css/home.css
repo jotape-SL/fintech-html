@@ -111,6 +111,10 @@ header{
   display: flex;
   flex-direction: column;
 }
+
+.last-card-patt{
+  margin-bottom: 5em;
+}
 .card-patt__conteudo{
   display: flex;
   justify-content: space-around;
