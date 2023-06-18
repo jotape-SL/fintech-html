@@ -149,86 +149,29 @@
       </div>
       <div class="card-patt">
         <a href="/pages/view-receitas.html">
-          <div class="card-patt__body">
+          <div class="card-patt__body" id="ultimas-receitas">
             <h5 class="card-patt__titulo">Últimas Receitas</h5>
-            <div class="card-patt__conteudo segundo-card">
-              <div class="conteudo-icone"></div>
-              <div class="conteudo-dados">
-                <div>
-                  <div class="first-row">Categoria</div>
-                  <div class="second-row">Descrição</div>
-                </div>
-                <div>
-                  <div class="first-row">R$ 00,00</div>
-                  <div class="second-row">00/Mês. 00:00</div>
-                </div>
-              </div>
-            </div>
-            <div class="card-patt__conteudo segundo-card">
-              <div class="conteudo-icone"></div>
-              <div class="conteudo-dados">
-                <div>
-                  <div class="first-row">Categoria</div>
-                  <div class="second-row">Descrição</div>
-                </div>
-                <div>
-                  <div class="first-row">R$ 00,00</div>
-                  <div class="second-row">00/Mês. 00:00</div>
-                </div>
-              </div>
-            </div>
-            <div class="card-patt__conteudo segundo-card">
-              <div class="conteudo-icone"></div>
-              <div class="conteudo-dados">
-                <div>
-                  <div class="first-row">Categoria</div>
-                  <div class="second-row">Descrição</div>
-                </div>
-                <div>
-                  <div class="first-row">R$ 00,00</div>
-                  <div class="second-row">00/Mês. 00:00</div>
-                </div>
-              </div>
-            </div>
-            <div class="card-patt__conteudo segundo-card">
-              <div class="conteudo-icone"></div>
-              <div class="conteudo-dados">
-                <div>
-                  <div class="first-row">Categoria</div>
-                  <div class="second-row">Descrição</div>
-                </div>
-                <div>
-                  <div class="first-row">R$ 00,00</div>
-                  <div class="second-row">00/Mês. 00:00</div>
-                </div>
-              </div>
-            </div>
-            <div class="card-patt__conteudo segundo-card">
-              <div class="conteudo-icone"></div>
-              <div class="conteudo-dados">
-                <div>
-                  <div class="first-row">Categoria</div>
-                  <div class="second-row">Descrição</div>
-                </div>
-                <div>
-                  <div class="first-row">R$ 00,00</div>
-                  <div class="second-row">00/Mês. 00:00</div>
-                </div>
-              </div>
-            </div>
           </div>
         </a>
       </div>
 
-      <a class="adicionar-botao dropstart" href="#">
+      <div class="adicionar-botao dropstart">
         <span class="material-symbols-outlined add" data-bs-toggle="dropdown">
           add
         </span>
         <ul class="dropdown-menu">
-          <li class="dropdown-item">adicionar receita</li>
-          <li class="dropdown-item">adicionar despesa</li>
+          <li>
+            <a class="dropdown-item" href="/pages/add-receita.html"
+              >Adicionar receita</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="/pages/add-despesa.html"
+              >Adicionar despesa</a
+            >
+          </li>
         </ul>
-      </a>
+      </div>
     </main>
 
     <script
@@ -237,5 +180,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="/assets/js/navMenu-animacao.js"></script>
+    <script src="/assets/js/CardReceitasHome.js"></script>
   </body>
 </html>
