@@ -1,9 +1,9 @@
 // fetching data
 
-fetch('/assets/data/despesas.json').then((response) => {
-  response.json().then((despesas) => {
-    despesas.despesas.map((despesa) => {
-      cardDs.innerHTML += `
+fetch('/assets/data/datareceitasReceitas.json').then((response) => {
+  response.json().then((data) => {
+    data.receitas.map((receita) => {
+      cardDsreceitas.innerHTML += `
       <div class="card-cat">
         <div>
           <span class="material-symbols-outlined custom icone-cat">
@@ -12,12 +12,12 @@ fetch('/assets/data/despesas.json').then((response) => {
         </div>
         <div class="columns">
           <div class="first-column">
-            <p class="nm">${despesa.categoria}</p>
-            <p class="dtnm">${despesa.dataDia} (${despesa.dataSemana}) ${despesa.dataHora}</p>
+            <p class="nm">${receita.categoria}</p>
+            <p class="dtnm">${receita.dataDia} (${receita.dataSemana}) ${receita.dataHora}</p>
             <p class="ds">Descrição</p>
           </div>
           <div class="second-column">
-            <p class="vl">R$ ${despesa.valor}</p>
+            <p class="vl">R$ ${receita.valor}</p>
           </div>
         </div>
       </div>
@@ -25,12 +25,33 @@ fetch('/assets/data/despesas.json').then((response) => {
     });
   });
 });
-fetch('/assets/data/receitas.json').then((response) => {
-  response.json().then((receitas) => {
-    console.log(receitas);
+fetch('/assets/data/dataDespesasReceitas.json').then((response) => {
+  response.json().then((data) => {
+    data.receitas.map((receita) => {
+      cardDsreceitas.innerHTML += `
+      <div class="card-cat">
+        <div>
+          <span class="material-symbols-outlined custom icone-cat">
+            play_shapes
+          </span>
+        </div>
+        <div class="columns">
+          <div class="first-column">
+            <p class="nm">${receita.categoria}</p>
+            <p class="dtnm">${receita.dataDia} (${receita.dataSemana}) ${receita.dataHora}</p>
+            <p class="ds">Descrição</p>
+          </div>
+          <div class="second-column">
+            <p class="vl">R$ ${receita.valor}</p>
+          </div>
+        </div>
+      </div>
+      `;
+    });
   });
 });
 
 // Getting elements that ill target
 
-let cardDs = document.querySelector('.cards-ds');
+let cardDsreceitas = document.getElementById('data-receitas');
+let cardDsReceitas = document.getElementById('data-receitas');
