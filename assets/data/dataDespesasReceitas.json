@@ -1,0 +1,70 @@
+{
+  "despesas": [
+    {
+      "categoria": "Conta Corrente",
+      "dataDia": "12/06/23",
+      "dataSemana": "Seg.",
+      "dataHora": "10:49",
+      "valor": "17,90",
+      "descricao": "Descrição"
+    },
+    {
+      "categoria": "Crédito",
+      "dataDia": "13/06/23",
+      "dataSemana": "Ter.",
+      "dataHora": "10:50",
+      "valor": "18,90",
+      "descricao": "Descrição"
+    },
+    {
+      "categoria": "Minha carteira",
+      "dataDia": "14/06/23",
+      "dataSemana": "Qua.",
+      "dataHora": "10:51",
+      "valor": "19,90",
+      "descricao": "Descrição"
+    },
+    {
+      "categoria": "Conta Corrente",
+      "dataDia": "15/06/23",
+      "dataSemana": "Qui.",
+      "dataHora": "10:52",
+      "valor": "20,90",
+      "descricao": "Descrição"
+    }
+  ],
+  "receitas": [
+    {
+      "categoria": "Salário",
+      "dataDia": "12/06/23",
+      "dataSemana": "Seg.",
+      "dataHora": "10:49",
+      "valor": "1700,00",
+      "descricao": "Descrição"
+    },
+    {
+      "categoria": "Extra",
+      "dataDia": "13/06/23",
+      "dataSemana": "Ter.",
+      "dataHora": "10:50",
+      "valor": "50,00",
+      "descricao": "Descrição"
+    },
+    {
+      "categoria": "Subsídio",
+      "dataDia": "14/06/23",
+      "dataSemana": "Qua.",
+      "dataHora": "10:51",
+      "valor": "290,00",
+      "descricao": "Descrição"
+    },
+    {
+      "categoria": "Extra",
+      "dataDia": "15/06/23",
+      "dataSemana": "Qui.",
+      "dataHora": "10:52",
+      "valor": "20,90",
+      "descricao": "Descrição"
+    }
+  ]
+}
