@@ -5,6 +5,9 @@ header{
     align-items: center;
     justify-content: space-between;
   }
+body{
+  margin-bottom: 4em;
+}
 
 /*Hamburger menu e animacao*/
 .icone-hamburger {
@@ -112,9 +115,6 @@ header{
   flex-direction: column;
 }
 
-.last-card-patt{
-  margin-bottom: 5em;
-}
 .card-patt__conteudo{
   display: flex;
   justify-content: space-around;
