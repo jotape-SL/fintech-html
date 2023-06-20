@@ -101,7 +101,7 @@
         </div>
       </div>
       <div class="categoria-sub">
-        <div class="">
+        <div class="categoria-sub">
           <h3>Categoria</h3>
           <div class="dropdown-center card-cat">
             <div>
@@ -109,23 +109,20 @@
                 play_shapes
               </span>
             </div>
-            <div class="categoria-sub__button" data-bs-toggle="dropdown">
-              <button
-                class="dropdown-toggle"
-                type="button"
-                aria-expanded="false"
-              >
-                Categoria
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Salario</a></li>
-                <li><a class="dropdown-item" href="#">Subsidio</a></li>
-                <li><a class="dropdown-item" href="#">Extra</a></li>
-              </ul>
-            </div>
+            <select
+              class="form-select categoria-sub__select"
+              aria-label="categoria"
+              required
+            >
+              <option selected>Selecione a categoria</option>
+              <option value="salario">Salário</option>
+              <option value="subsidio">Subsídio</option>
+              <option value="extra">Extra</option>
+              <option value="outro">outro</option>
+            </select>
           </div>
         </div>
-        <div class="">
+        <div class="categoria-sub">
           <h3>Subcategoria</h3>
           <div class="dropdown-center card-cat">
             <div>
@@ -133,21 +130,17 @@
                 play_shapes
               </span>
             </div>
-            <div class="categoria-sub__button" data-bs-toggle="dropdown">
-              <button
-                class="dropdown-toggle"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Subcategoria
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Salario</a></li>
-                <li><a class="dropdown-item" href="#">Subsidio</a></li>
-                <li><a class="dropdown-item" href="#">Extra</a></li>
-              </ul>
-            </div>
+            <select
+              class="form-select categoria-sub__select"
+              aria-label="categoria"
+              required
+            >
+              <option selected>Selecione a categoria</option>
+              <option value="salario">Salário</option>
+              <option value="subsidio">Subsídio</option>
+              <option value="extra">Extra</option>
+              <option value="outro">outro</option>
+            </select>
           </div>
         </div>
       </div>
