@@ -5,6 +5,7 @@ body{
     background-color: #E6E6E6;
 }
 
+/*cards*/
 .cards-ds{
     display: flex;
     flex-direction: column;
@@ -25,6 +26,25 @@ body{
     font-size: 30px !important;
 }
 
+/*buttons*/
+.df-button{
+    background-color: black;
+    border-radius: 10px;
+}
+.df-button button{
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    padding: 1em;
+    margin: 0 3em;
+}
+
+.df-button a{
+    width: fit-content;
+}
+
+/*Icone*/
 .icone-avatar{
     width: 3.125em;
     height: 3.125em;
@@ -35,6 +55,7 @@ body{
     border: 1px solid white;
 }
 
+/*input*/
 .inputValues{
     border: none;
     background-color: #E6E6E6;

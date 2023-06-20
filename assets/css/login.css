@@ -7,7 +7,7 @@ main{
     flex-direction: column;
     align-items: center;
 }
-.material-symbols-outlined{
+.wallet-icon{
     font-size: 65px !important;
 }
 .welcomeMessage{
@@ -47,23 +47,12 @@ main{
 .btn-fintech__entrar a{
     color: #e6e6e6;
 }
-.form-control__fintech{
+
+.input-group{
     width: 252px;
     height: 42px;
-    border: 2px solid black;
-    background-color: #E6E6E6;
 }
-.form-label__fintech{
-    background-color: #E6E6E6;
-    position: absolute;
-    left: 62px;
-}
-.form-label__fintech-email{
-    top:337px
-}
-.form-label__fintech-senha{
-    top:394px
-}
+
 .senha-msg{
     margin-bottom: 10px;
 }
