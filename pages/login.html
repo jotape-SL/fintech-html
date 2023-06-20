@@ -26,7 +26,7 @@
   <body>
     <header>
       <i>
-        <span class="material-symbols-outlined"> account_balance_wallet </span>
+        <span class="material-symbols-outlined wallet-icon"> account_balance_wallet </span>
       </i>
     </header>
     <main>
@@ -36,17 +36,21 @@
         <p>Continue com o Google</p>
       </button>
       <p class="orMsg">ou</p>
-      <div class="mb-3">
-        <label for="email_do_usuario" class="form-label form-label__fintech form-label__fintech-email">Email</label>
-        <input type="email" class="form-control form-control__fintech" id="email_do_usuario" placeholder="nome@exemple.com">
+      <div class="input-group mb-3">
+        <span class="input-group-text material-symbols-outlined" id="basic-addon1">alternate_email</span>
+        <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
       </div>
-      <div class="mb-3">
-        <label for="senha_do_usuario" class="form-label form-label__fintech form-label__fintech-senha">Senha</label>
-        <input type="password" class="form-control form-control__fintech" id="senha_do_usuario">
+      <div class="input-group mb-3">
+        <span class="input-group-text material-symbols-outlined" id="basic-addon1">lock</span>
+        <input type="password" class="form-control" placeholder="Senha" aria-label="Email" aria-describedby="basic-addon1">
       </div>
-      <button class="btn btn-dark btn-fintech btn-fintech__entrar">
-        <a href="/pages/home.html" class="">Entrar</a>
-      </button>
+      <div>
+        <a href="/pages/home.html">
+          <div class="df-button btn-fintech btn-fintech__entrar">
+            <button type="button">Entrar</button>
+          </div>
+        </a>
+      </div>
       <a href="#" class="senha-msg">REDEFINIR SENHA</a>
       <p>
         Já possui conta? 

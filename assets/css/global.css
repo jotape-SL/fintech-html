@@ -5,6 +5,7 @@ body{
     background-color: #E6E6E6;
 }
 
+/*cards*/
 .cards-ds{
     display: flex;
     flex-direction: column;
@@ -15,6 +16,7 @@ body{
     align-items: center;
     border-bottom: 1px solid black;
     font-size: 14px;
+    transition: 1s all;
 }
 
 .card-icone{
@@ -24,6 +26,25 @@ body{
     font-size: 30px !important;
 }
 
+/*buttons*/
+.df-button{
+    background-color: black;
+    border-radius: 10px;
+}
+.df-button button{
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    padding: 1em;
+    margin: 0 3em;
+}
+
+.df-button a{
+    width: fit-content;
+}
+
+/*Icone*/
 .icone-avatar{
     width: 3.125em;
     height: 3.125em;
@@ -33,3 +54,16 @@ body{
     border-radius: 50%;
     border: 1px solid white;
 }
+
+/*input*/
+.inputValues{
+    border: none;
+    background-color: #E6E6E6;
+}
+
+/* Recorrencia animacao*/
+.animacao-rotacao {
+    color: red;
+    transform: rotate(120deg);
+  }
+  

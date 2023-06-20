@@ -33,22 +33,6 @@ main{
     width: 80%;
 }
 
-.df-button{
-    background-color: black;
-    border-radius: 10px;
-}
-.df-button button{
-    border: none;
-    text-decoration: none;
-    background-color: transparent;
-    color: white;
-    padding: 1em;
-    margin: 0 3em;
-}
-
-.df-button a{
-    width: fit-content;
-}
 .redef-senha{
     margin-top: 1em;
 }
