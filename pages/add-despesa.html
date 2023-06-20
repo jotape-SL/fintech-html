@@ -46,8 +46,16 @@
               calendar_month
             </span>
           </div>
-          <p class="dtnm">12/06/23 (seg.)</p>
-          <p class="dtds">10:49</p>
+          <label for="DateTime" class="visually-hidden"
+            >Data e hora da transação</label
+          >
+          <input
+            type="datetime-local"
+            id="DateTime"
+            name="DateTime"
+            class="inputValues"
+            required
+          />
         </div>
         <div class="card-cat">
           <div class="card-icone money">
@@ -55,19 +63,41 @@
               monetization_on
             </span>
           </div>
-          <p class="vl">R$ 0,00</p>
+          <p>R$</p>
+          <label for="valor" class="visually-hidden">Valor da transação</label>
+          <input
+            class="inputValues"
+            type="number"
+            id="valor"
+            placeholder="00,00"
+            name="valor"
+            required
+          />
         </div>
         <div class="card-cat">
           <div class="card-icone descricao">
             <span class="material-symbols-outlined custom"> description </span>
           </div>
-          <p class="ds">Descrição</p>
+          <label for="valor" class="visually-hidden"
+            >Descricao da transação</label
+          >
+          <input
+            class="inputValues"
+            type="text"
+            id="descricao"
+            placeholder="Descrição"
+            name="descricao"
+            required
+          />
         </div>
-        <div class="card-cat">
+        <div aria-label="Recorrente" class="card-cat" id="recorrenciaCard">
           <div class="card-icone recorrencia">
-            <span class="material-symbols-outlined custom"> autorenew </span>
+            <span id="recorrenciaIcon" class="material-symbols-outlined custom">
+              autorenew
+            </span>
           </div>
-          <p>Não recorrente</p>
+          <p id="recorrenciaNaoTexto" class="visually-hidden">Não recorrente</p>
+          <p id="recorrenciaTexto">Recorrente</p>
         </div>
       </div>
       <div class="categoria-sub">
@@ -127,5 +157,6 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="/assets/js/recorrenciaButton-animacao.js"></script>
   </body>
 </html>
