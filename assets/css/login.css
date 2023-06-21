@@ -21,10 +21,6 @@ main{
     margin: 0 0px 25px 0;
 }
 .btn-google__logo{
-    background-image: url(/assets/img/google-logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
     background-color: #E6E6E6;
     border-radius: 100%;
     width: 26px;
