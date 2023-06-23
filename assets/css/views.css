@@ -36,7 +36,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1em;
+    margin: 1em auto 0 auto;
+    width: 18em;
 }
 .header-mes a{
     color: white;
@@ -44,6 +45,7 @@ header{
 
 .header-mes p{
     margin: 0 4em;
+    text-align: center;
 }
 
 /*main*/
