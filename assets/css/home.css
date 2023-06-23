@@ -66,6 +66,7 @@ body{
 .econ-botoes{
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
   margin: 0 -10px;
 }
@@ -76,15 +77,19 @@ body{
   border-radius: 100%;
   padding: 3px;
   color: #363636;
+  width: fit-content;
 }
 .econ-botoes div{
+  color: #E6E6E6;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   flex-direction: column;
   background-color: #363636;
   border-radius: 15px;
   padding: 2em;
   font-size: 10px;
+  width: 130px;
 }
 .econ-botoes p{
   margin-top: 1em;
