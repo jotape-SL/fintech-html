@@ -81,23 +81,27 @@
           <label for="valor" class="visually-hidden"
             >Descricao da transação</label
           >
-          <input
-            class="inputValues"
+          <textarea
+            class="inputValues form-control"
             type="text"
             id="descricao"
             placeholder="Descrição"
             name="descricao"
-            required
-          />
+          ></textarea>
         </div>
         <div aria-label="Recorrente" class="card-cat" id="recorrenciaCard">
           <div class="card-icone recorrencia">
-            <span id="recorrenciaIcon" class="material-symbols-outlined custom">
+            <span
+              id="recorrenciaIcon"
+              class="material-symbols-outlined custom rec"
+            >
               autorenew
             </span>
           </div>
-          <p id="recorrenciaNaoTexto" class="visually-hidden">Não recorrente</p>
-          <p id="recorrenciaTexto">Recorrente</p>
+          <p id="recorrenciaNaoTexto" class="visually-hidden inputValues rec">
+            Não recorrente
+          </p>
+          <p id="recorrenciaTexto" class="inputValues rec">Recorrente</p>
         </div>
       </div>
       <div class="categoria-sub">

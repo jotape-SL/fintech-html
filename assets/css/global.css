@@ -59,6 +59,8 @@ body{
 .inputValues{
     border: none;
     background-color: #E6E6E6;
+    font-size: 18px;
+    padding: 0;
 }
 
 /* Recorrencia animacao*/
