@@ -5,7 +5,7 @@
 Controle seus gastos de forma simples e eficiente, gerencie suas despesas, defina metas financeiras e tenha uma visão clara da sua saúde financeira em um único lugar. 
 
 ![image](https://github.com/jotape-SL/fintech-html/assets/102804110/51bab490-cafd-4865-b514-67660167d428)
-![image](https://github.com/jotape-SL/fintech-html/assets/102804110/920ed3ce-e6df-4b7b-9326-d47f75ebcb1a)
+![image](https://github.com/jotape-SL/fintech-html/assets/102804110/67fec7aa-b451-4537-bdb3-6a4055adf3eb)
 </div>
 
 </br>
