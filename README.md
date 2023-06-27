@@ -23,7 +23,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/jotape-SL/Pomodoro.git
+$ git clone https://github.com/jotape-SL/fintech-html.git
 
 # Abra o terminal e entre na pasta e navegue pelos arquivos HTML
 $ cd ./fintech-html.git
